@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Montserrat,sans-serif;
+}
+
+body {
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.tampilan_produk {
+    margin:  auto;
+    max-height: 480px;
+    max-width: 640px;
+}
+
+.judul {
+    font-style: normal;
+    font-size: 28spx;
+    line-height: 1;
+}
+
+.produk {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position : absolute;
+    left: 42%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preview {
+    max-width: 500px;
+    height: auto;
+    transition: transform 0.5s ease-out;
+}
+
+.preview:hover {
+    transform: scale(1.1);
+}
+
+#detail {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#button {
+    background-color: black;
+    padding: 7px 25px;
+    color:  white;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+#button:hover {
+    background-color: #1abc9c;
+}
+
+footer {
+    padding: 22px 100px;
+    max-height: 12vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
