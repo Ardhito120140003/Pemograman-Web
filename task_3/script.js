@@ -1,6 +1,6 @@
 
 //menambahkan text
-const footer = document.querySelector("footer");
+const footer = document.querySelector(".footer");
 footer.textContent="Ardhito Saputra - 120140003 - RA";
 
 
